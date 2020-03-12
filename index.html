@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="assets/img/favicon.ico" />
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="./assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="./assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+
+    <!-- Map -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+    <style type="text/css">
+    	#intro {
+    		background-color: #818181;
+    		background-image: url(assets/img/header.jpg);
+    		background-size: cover;
+			background-blend-mode: multiply;
+    	}
+    	.card-up {
+    		transition: all .3s ease-in-out;
+    	}
+    	.card-up:hover {
+    		position: relative;
+    		top:-5px;
+    		box-shadow: rgba(0, 0, 0, 1) 0px 4px 11px;
+    	}
+    	.logos .img-fluid {
+    		filter: grayscale(100%);
+    		opacity: 0.8;
+    	}
+    	.btn-black, .bg-black {
+    		background-color: black !important;
+    	}
+
+    </style>
+
+    <title>Beurktionary</title>
+  </head>
+  <body>
+
+    
+    
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/beurktionary_logo.png" class="navbar-brand-img" alt="...">
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#" >
+                Télécharger
+              </a>
+            </li>
+            <li class="nav-item">
+            <!-- Button -->
+	          <a class="navbar-btn btn btn-sm btn-black lift ml-auto" href="http://ulule.com" target="_blank">
+	            Acheter
+	          </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- WELCOME
+    ================================================== -->
+    <section id="intro" class="pt-12 pb-10 pt-md-15 pb-md-14">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-10 col-lg-8">
+            
+            <!-- Heading -->
+            <h1 class="display-3 font-weight-bold text-white-80" id="welcomeHeadingSource">
+              Un jeu pas sérieux pour les <br>
+              <span class="text-white" data-toggle="typed" data-options='{"strings": ["Designers", "Étudiants", "Directeurs marketing", "Développeurs"]}'></span>
+            </h1>
+            
+
+            <!-- Text -->
+            <p class="font-size-lg text-white mb-6">
+              Beurktionary est un jeu pour tous ceux qui peuvent être impliqués dans le développement de nouvelles offres (produits ou services). Il est en prévente sur Ulule pour un temps limité.
+            </p>
+
+            <!-- Button here --> 
+            <a href="" class="btn btn-lg btn-black">Voir la campagne</a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>   
+
+    <!-- CONCEPT
+    ================================================== -->
+    <section class="pt-8 pt-md-11 pb-8" id="payItDown">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Badge -->
+            <span class="badge badge-pill badge-black mb-3">
+              <span class="h6 text-uppercase">CONCEPT</span>
+            </span>
+
+            <!-- Heading -->
+            <h1 class="mb-5">
+              Les origines du jeu :<br>le sens, l’usage et l’impact !
+            </h1>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 col-lg-7">
+            
+            <!-- Screenshot -->
+            <div class="mb-8 mb-md-0">
+
+              <!-- Image -->
+              <img src="assets/img/MockUp_beurk_2.jpg" alt="..." class="screenshot img-fluid mw-md-110 float-right mr-md-6 mb-6 mb-md-0">
+              
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-5">
+            
+            <!-- List -->
+            <div class="d-flex">
+                
+              <!-- Badge -->
+              <div class="badge badge-lg badge-rounded-circle badge-black mt-1">
+                <span>1</span>
+              </div>
+              
+              <!-- Body -->
+              <div class="ml-5">
+                
+                <!-- Heading -->
+                <h3>
+                  Penser au pire 
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700 mb-6">
+                  C'est souvent plus facile de réfléchir à l'envers pour exercer sa créativité.
+                </p>
+
+              </div>
+
+            </div>
+            <div class="d-flex">
+                
+              <!-- Badge -->
+              <div class="badge badge-lg badge-rounded-circle badge-black mt-1">
+                <span>2</span>
+              </div>
+              
+              <!-- Body -->
+              <div class="ml-5">
+                
+                <!-- Heading -->
+                <h3>
+                  Sortir de sa zone de confort
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700 mb-6">
+                  C'est l'occasion de dessiner ou même prototyper rapidement.
+                </p>
+
+              </div>
+
+            </div>
+            <div class="d-flex">
+                
+              <!-- Badge -->
+              <div class="badge badge-lg badge-rounded-circle badge-black mt-1">
+                <span>3</span>
+              </div>
+              
+              <!-- Body -->
+              <div class="ml-5">
+                
+                <!-- Heading -->
+                <h3>
+                  S'amuser
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700 mb-0">
+                  C'est le meilleur moyen d'apprendre et de changer ses habitudes.
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- Stats -->
+            <div class="d-flex mt-7 ml-9">
+              <div class="pr-5">
+                <h3 class="mb-0">
+                  <span data-toggle="countup" data-from="0" data-to="18" data-aos data-aos-id="countup:in"></span>
+                </h3>
+                <p class="text-gray-700 mb-0">
+                  Contraintes
+                </p>
+              </div>
+              <div class="border-left border-gray-300"></div>
+              <div class="px-5">
+                <h3 class="mb-0">
+                  <span data-toggle="countup" data-from="0" data-to="22" data-aos data-aos-id="countup:in"></span>
+                </h3>
+                <p class="text-gray-700 mb-0">
+                  Projets
+                </p>
+              </div>
+              <div class="border-left border-gray-300"></div>
+              <div class="pl-5">
+                <h3 class="mb-0">
+                  <span data-toggle="countup" data-from="0" data-to="3" data-aos data-aos-id="countup:in"></span>+
+                </h3>
+                <p class="text-gray-700 mb-0">
+                  Règles
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    
+
+    <!-- PROJET 
+    ================================================== -->
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">     
+
+          <div class="col-12 col-md-6 col-lg-5" data-aos="fade-left">
+            
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              22 cartes 'projet'
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-4">
+              Produits ou services, les projets, classés en 3 niveaux de difficulté, permettent de couvrir un large éventail de possibilités.<br>
+              Le jeu contient aussi 4 cartes vierges pour pouvoir intégrer vos propres problématiques métier.
+            </p>
+
+          </div>
+
+          <div class="col-12 col-md-6 mb-5 mb-md-0">
+       
+            <!-- Images -->
+            <div class="row">
+              <div class="col-6 mr-n5">
+                
+                <img src="assets/img/4-agence de voyage.jpg" alt="..." class="card-up img-fluid mb-4 rounded shadow-light-lg" data-aos="fade-right" data-aos-delay="100">
+
+                <img src="assets/img/18-signalisation.jpg" alt="..." class="card-up img-fluid rounded shadow-light-lg" data-aos="fade-right" data-aos-delay="150">
+
+              </div>
+              <div class="col-6 mt-8">
+                
+                <img src="assets/img/36-agriculture urbaine.jpg" alt="..." class="card-up img-fluid mb-4 rounded shadow-light-lg" data-aos="fade-right">
+
+                <img src="assets/img/46-assistant vocal.jpg" alt="..." class="card-up img-fluid rounded shadow-light-lg"  data-aos="fade-right" data-aos-delay="50">
+
+              </div>
+            </div> <!-- / .row -->
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+	<!-- CONTRAINTES
+    ================================================== -->
+    <section class="pt-8 pt-md-11 pb-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+
+          <div class="col-12 col-md-6 mb-5 mb-md-0">
+        
+            <!-- Images -->
+            <div class="row">
+              <div class="col-6 mr-n5">
+                
+                <img src="assets/img/62-simplicite.jpg" alt="..." class="card-up img-fluid mb-4 rounded shadow-light-lg" data-aos="fade-right" data-aos-delay="100">
+
+                <img src="assets/img/66-only-you.jpg" alt="..." class="card-up img-fluid rounded shadow-light-lg" data-aos="fade-right" data-aos-delay="150">
+
+              </div>
+              <div class="col-6 mt-8">
+                
+                <img src="assets/img/92-illusion.jpg" alt="..." class="card-up img-fluid mb-4 rounded shadow-light-lg" data-aos="fade-right">
+
+                <img src="assets/img/80-bipbip-yeah.jpg" alt="..." class="card-up img-fluid rounded shadow-light-lg"  data-aos="fade-right" data-aos-delay="50">
+
+              </div>
+            </div> <!-- / .row -->
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-5" data-aos="fade-left">
+            
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              18 cartes 'contrainte'
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-4">
+              Les cartes 'contrainte' sont inspirées de projets réels. Elles sont classées en 3 niveaux de difficulté, afin de pouvoir jouer à la fois avec des enfants et avec des experts. Elles couvrent à elles toutes différents aspects du design (confort, beauté, etc.).
+            </p>
+
+          </div>
+
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>    
+
+    <!-- EXEMPLES
+    ================================================== -->
+    <section class="py-8 py-md-11 border-bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Headin -->
+            <h1 class="display-2">
+              
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-7 mb-md-9">
+              Des dizaines d'ateliers ont déjà été organisés avec des grands groupes, PMEs et même des enfants. Rejoignez le mouvement !
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12">
+            
+            <!-- Image -->
+            <div class="form-row">
+              <div class="col-4">
+                
+                <img src="assets/img/photo-16.jpg" class="img-fluid rounded shadow-lg" alt="...">
+
+              </div>
+              <div class="col-3">
+
+                <img src="assets/img/photo-17.jpg" class="img-fluid rounded shadow-lg mb-4" alt="...">
+
+                <img src="assets/img/photo-18.jpg" class="img-fluid rounded shadow-lg mt-1" alt="...">
+
+              </div>
+              <div class="col-5">
+
+                <div class="form-row mb-4">
+                  <div class="col-5">
+                    
+                    <img src="assets/img/photo-19.jpg" class="img-fluid rounded shadow-lg" alt="...">
+
+                  </div>
+                  <div class="col-7">
+                    
+                    <img src="assets/img/photo-20.jpg" class="img-fluid rounded shadow-lg" alt="...">
+
+                  </div>
+                </div> <!-- / .row -->
+
+                <img src="assets/img/photo-21.jpg" class="img-fluid rounded shadow-lg mt-1" alt="...">
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+
+        <div class="logos row align-items-center justify-content-center mt-7">
+
+          <div class="col-12 text-center text-muted">
+            <p>Ils ont testé le Beurktionary</p>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              <img src="./assets/img/logos/grd_lyon.png">
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              <img src="./assets/img/logos/logo_thecamp.png">
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              <img src="./assets/img/logos/logo_EDF.jpg">
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              <img src="./assets/img/logos/logo_ratp.png">
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              <img src="./assets/img/logos/logo_Aix.jpg">
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+            <!-- Brand -->
+            <div class="img-fluid text-gray-600 mb-2 mb-md-0 svg-shim">
+              <img src="./assets/img/logos/Logo_Malakoff_Humanis.jpg">
+            </div>
+          </div>
+        </div> <!-- / .row -->
+
+      </div> <!-- / .container -->
+    </section>
+
+    
+
+    <!-- CTA
+    ================================================== -->
+    <section class="pt-6 pt-md-8">
+      <div class="container pb-6 pb-md-8 border-bottom">
+        <div class="row align-items-center">
+          <div class="col-12 col-md">
+            
+            <!-- Heading -->
+            <h3 class="font-weight-bold mb-1">
+              Convaincu ?
+            </h3>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-5 mb-md-0">
+              Rejoignez la campagne Ulule pour obtenir votre jeu. Il n'y aura pas d'autre occasion...
+            </p>
+
+          </div>
+          <div class="col-12 col-md-auto">
+            
+            <!-- Button -->
+            <a href="#!" class="btn btn-black lift">
+              Acheter
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+
+
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+        
+            <!-- Brand -->
+            <img src="./assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2">
+
+            <!-- Text -->
+            <p class="text-white-80 mb-2">
+              Un jeu pas sérieux pour comprendre le design
+            </p>
+
+            <!-- Social -->
+            <ul class="list-unstyled list-inline list-social mb-6 mb-md-0 white">
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/facebook.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+        
+            <!-- Heading -->
+            <h4 class="font-weight-bold text-uppercase text-white">
+              Un projet de 
+            </h4>
+
+            <!-- List -->
+            <ul class="list-unstyled text-white-80 mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Collectif BAM
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  thecamp
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  POC studio
+                </a>
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-md-5 col-6 col-lg-7">
+          	<h4 class="font-weight-bold text-uppercase text-white">
+          		Télécharger
+          	</h4>
+
+          	<p class="text-white-80 mb-2">
+          		Vous voulez faire votre propre jeu ? Le Beurktionary est publié gratuitement sous licence Creative Commons CC-BY-NC-SA. Alors allez-y, imprimez le et organisez vos propres ateliers. Vous pouvez même le modifier et inventer de nouvelles cartes. 
+          	</p>
+
+          	<a href="#" class="btn btn-light mr-5 mt-3" download>Télécharger en PDF</a>
+
+          	<img src="assets/img/cc-by-nc-sa.png" class="mt-3" style="width:200px">
+          </div>
+
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="./assets/libs/aos/dist/aos.js"></script>
+    <script src="./assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./assets/libs/typed.js/lib/typed.min.js"></script>
+    <script src="./assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="./assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="./assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
+
+      
+  </body>
+</html>
